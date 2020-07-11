@@ -10,7 +10,7 @@ namespace GCLab2
             do
             {
                 System.Console.Clear();  //Went outside scope of project for cleanliness
-                Console.WriteLine("Welcome to Jasons' Room Detail Generator");
+                Console.WriteLine("Welcome to Jason's Room Detail Generator");
                 Console.WriteLine();
                 Console.Write("Enter length: ");
                 var lengthPassed= double.TryParse(Console.ReadLine(), out double lengthAsDouble);
